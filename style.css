@@ -4,8 +4,9 @@ padding: 0;
 }
 
 body {
-  background-color: #e6e6e6;
+  /* background-color: #e6e6e6; */
   /* background-color: red; */
+  background-color: white;
 }
 
 div.firstBox{
@@ -22,7 +23,7 @@ div.header{
   position:absolute;
   top: 0; bottom: 0; left: 0; right: 0;
   margin: auto;
-  height: 80%;
+  height: 60%;
   width: 90%;
 }
 
@@ -52,22 +53,22 @@ h2#intro-message {
   font-size: 1em;
 }
 
-h2 {
+h2 { /*for horizontal line*/
   display: flex;
   flex-direction: row;
 }
 
-h2:before, h2:after{
+h2:before, h2:after{ /*for horizontal line*/
   content: "";
   flex: 1 1;
   border-bottom: 1px solid;
   margin: auto;
 }
 
-h2:before {
+h2:before { /*for horizontal line*/
   margin-right: 10px
 }
 
-h2:after {
+h2:after { /*for horizontal line*/
   margin-left: 10px
 }
