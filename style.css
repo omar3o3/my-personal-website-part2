@@ -15,15 +15,25 @@ div.firstBox{
 
 div.firstBox{
   width: 98%;
-  min-height: 500px;
+  min-height: 25em;
   position: relative;
+  z-index: 1;
+}
+
+img#selfie{
+  max-width: 22%;
+  z-index: 2;
+  position: absolute;
+  left: 37%;
+  bottom: 20%;
 }
 
 div.header{
   position: absolute;
-  top: 0; bottom: 0; left: 0; right: 0;
+  top: 3em; bottom: 0; left: 0; right: 0;
   margin: auto;
-  height: 60%;
+  /* height: 60%; */
+  height: 15em;
   width: 90%;
 }
 
