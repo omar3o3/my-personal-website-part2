@@ -1,5 +1,19 @@
-h1 {
-  /* background: blue; */
-  color: green;
-  /* color: blue; */
+*{
+margin: 0;
+padding: 0;
+}
+
+body {
+  /* background-color: #c7c5c5; */
+}
+
+div.header{
+  font-family: Helvetica;
+  background-color: black;
+  color: #f7c202;
+  text-align: center;
+}
+
+h2#intro-message {
+  font-size: 25px;
 }
