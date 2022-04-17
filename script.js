@@ -1,18 +1,46 @@
-// let aboutMe = document.getElementsByClassName("secondZone");
 
 const aboutMe = document.querySelector(".secondZone");
-// const isHidden = true;
 
-// function hideAboutMe() {
-//   if (isHidden){
-//     aboutMe.style.display = "block";
-//     isHidden = false;
-//   } else {
-//     aboutMe.style.display = "none";
-//     isHidden = true;
+
+function hideAboutMe() {
+  aboutMe.classList.toggle('hide');
+}
+
+const selfie = document.querySelector('#selfie');
+let timesClicked = 0;
+
+// function funnyAlert (){
+//   let timesClicked = 0;
+//   while (timesClicked = 1){
+//     return alert('Ouch, that hurt.');
+//     timesClicked++;
+//     console.log(timesClicked);
 //   }
 // }
 
-function hideAboutMe() {
-  aboutMe.classList.toggle('hide')
+
+function funnyAlert (){
+  while (timesClicked = 1){
+    return alert('Ouch, that hurt.');
+    timesClicked++;
+    console.log(timesClicked);
+  } if (timesClicked > 1){
+    return alert('Please stop hitting me.');
+    timesClicked++;
+    let timesClicked = 0;
+    console.log(timesClicked);
+  }
+  // timesClicked++;
+  // console.log(timesClicked);
 }
+
+
+// function funnyAlert (){
+//   if (timesClicked === 1){
+//     return alert('Ouch, that hurt.');
+//     timesClicked++;
+//   } else if (timesClicked > 1){
+//     return alert('Please stop doing that.');
+//   }
+//   timesClicked++;
+// }

@@ -93,7 +93,7 @@ div.headerContactDetails{
 div#aboutMe{
   /* padding-left: 30px; */
   /* padding-right: 30px; */
-  /* position: relative; */
+  /* position: absolute; */
   flex: 1;
   width: 20%;
   float: left;
