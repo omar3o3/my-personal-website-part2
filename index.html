@@ -5,7 +5,6 @@
     <title>My Personal Website</title>
   </head>
   <body>
-    <script type="text/javascript" src="script.js"></script>
 
     <section id="landingZone">
 
@@ -14,6 +13,7 @@
         <img id="selfie" src="images/selfie.png" alt="selfie">
 
         <div class="header">
+
           <h1 id="name">
             Omar Tantawy
           </h1>
@@ -23,9 +23,16 @@
           </h2>
 
           <div class="headerContactDetails">
+
             <div id='aboutMe'>
               <h3 id="aboutMeButton">
-                About Me
+                <button
+                  onclick="hideAboutMe()"
+                  type="button"
+                  name="buttonToHideAboutMeSection"
+                  id="actualAboutMeButton">
+                    About Me
+                </button>
               </h3>
             </div>
 
@@ -87,5 +94,8 @@
       <br>
       <br>
     </section>
+
+    <script type="text/javascript" src="script.js"></script>
+
   </body>
 </html>

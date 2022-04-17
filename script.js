@@ -1,6 +1,7 @@
-// const h2 = document.createElement("h2");
-// h2.textContent = "This content added by JavaScript";
-//
-// document.querySelector("body").appendChild(h2);
-//
-// CODE STARTS FROM HERE:
+// let aboutMe = document.getElementsByClassName("secondZone");
+
+let aboutMe = document.querySelector(".secondZone");
+
+function hideAboutMe() {
+  aboutMe.style.display = "none";
+}
