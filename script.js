@@ -27,7 +27,6 @@ function funnyAlert (){
   } if (timesClicked > 1){
     return alert('Please stop hitting me.');
     timesClicked++;
-    let timesClicked = 0;
     console.log(timesClicked);
   }
   // timesClicked++;
