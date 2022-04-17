@@ -1,7 +1,18 @@
 // let aboutMe = document.getElementsByClassName("secondZone");
 
-let aboutMe = document.querySelector(".secondZone");
+const aboutMe = document.querySelector(".secondZone");
+// const isHidden = true;
+
+// function hideAboutMe() {
+//   if (isHidden){
+//     aboutMe.style.display = "block";
+//     isHidden = false;
+//   } else {
+//     aboutMe.style.display = "none";
+//     isHidden = true;
+//   }
+// }
 
 function hideAboutMe() {
-  aboutMe.style.display = "none";
+  aboutMe.classList.toggle('hide')
 }

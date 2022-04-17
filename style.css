@@ -148,3 +148,11 @@ h2#aboutMeHeader{
 div.aboutMePara{
   font-size: 1.1em;
 }
+
+/* section.secondZone{
+  display: none;
+} */
+
+.hide{
+  display: none;
+}
