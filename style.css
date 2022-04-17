@@ -149,10 +149,41 @@ div.aboutMePara{
   font-size: 1.1em;
 }
 
-/* section.secondZone{
-  display: none;
+button#actualAboutMeButton{
+  font-weight: bold;
+  font-size: 1em;
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  /* font-family: arial, sans-serif; */
+  /*input has OS specific font-family*/
+  color: #069;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* button#actualAboutMeButton{
+  font-size: 1.2em;
+  display: inline;
+}
+
+button#actualAboutMeButton{
+  background:none;
+  border:none;
+  outline:none;
+  cursor:pointer
 } */
 
 .hide{
   display: none;
+}
+
+a{
+  /* font-size: 1.2em; */
+  color: #069;
+}
+
+a:visited{
+  color: purple;
 }
