@@ -133,3 +133,18 @@ div#email{
   text-align: center;
   /* background-color: black; */
 }
+
+div.aboutMeSection{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+h2#aboutMeHeader{
+  font-size: 2em;
+  padding-top: 1em;
+}
+
+div.aboutMePara{
+  font-size: 1.1em;
+}
