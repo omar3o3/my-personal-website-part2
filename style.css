@@ -21,11 +21,11 @@ div.firstBox{
 }
 
 img#selfie{
-  max-width: 22%;
+  max-width: 17%;
   z-index: 2;
   position: absolute;
-  left: 37%;
-  bottom: 20%;
+  left: 39%;
+  bottom: 55%;
 }
 
 div.header{
