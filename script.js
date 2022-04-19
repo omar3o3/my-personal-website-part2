@@ -20,14 +20,15 @@ let timesClicked = 0;
 
 
 function funnyAlert (){
-  while (timesClicked = 1){
-    return alert('Ouch, that hurt.');
+  console.log(timesClicked);
+  while (timesClicked <= 1){
     timesClicked++;
+    return alert('Ouch, that hurt.');
     console.log(timesClicked);
   } if (timesClicked > 1){
-    return alert('Please stop hitting me.');
     timesClicked++;
-    let timesClicked = 0;
+    return alert('Please stop hitting me.');
+    // let timesClicked = 0;
     console.log(timesClicked);
   }
   // timesClicked++;
