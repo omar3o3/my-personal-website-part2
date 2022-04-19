@@ -18,6 +18,8 @@ selfie.addEventListener('click', function (e) {
 })
 
 
+
+// **old function to do the funnyAlert message**
 // let timesClicked = 0;
 //
 // function funnyAlert(){
@@ -28,13 +30,3 @@ selfie.addEventListener('click', function (e) {
 //     alert('Please stop doing that');
 //   }
 // }
-
-
-// selfie.addEventListener('keydown', function (e) {
-//   if (event.key === "ArrowLeft"){
-//     const leftNumbers = selfie.style.left.replace('px', '');
-//     const left = parseInt(leftNumbers, 10);
-//
-//     selfie.style.left = `${left - 1}%`;
-//   }
-// });
